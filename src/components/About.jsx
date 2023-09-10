@@ -48,7 +48,7 @@ const About = () => {
         JavaScript, and expertise in frameworks like React, Next, Node.js. I'm a
         quick learner and collaborate closely with clients to create efficient,
         scalable, and user-friendly solutions that solve real-world problems.
-        Let's work together to bring your ideas to life!
+        Let's work together to bring your ideas to life
       </motion.p>
       <div className="mt-20 flex flex-wrap justify-between gap-20">
         {services.map((service, index) => (
