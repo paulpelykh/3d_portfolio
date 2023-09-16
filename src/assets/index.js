@@ -6,6 +6,7 @@ import web from './web.png';
 import github from './github.png';
 import menu from './menu.svg';
 import close from './close.svg';
+import open from './open.png';
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
@@ -26,8 +27,8 @@ import shopify from './company/shopify.png';
 import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
+import remindMe from './remindMe.png';
+import quizAI from './quizAI.png';
 import tripguide from './tripguide.png';
 
 export {
@@ -56,7 +57,8 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
+  remindMe,
+  quizAI,
   tripguide,
+  open,
 };

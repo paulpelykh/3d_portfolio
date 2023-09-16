@@ -19,8 +19,8 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
+  remindMe,
+  quizAI,
   tripguide,
   threejs,
 } from '../assets';
@@ -40,6 +40,7 @@ export const navLinks = [
   },
 ];
 
+//TODO: change experiences
 const services = [
   {
     title: 'Web Developer',
@@ -59,6 +60,7 @@ const services = [
   },
 ];
 
+//TODO: change experiences
 const technologies = [
   {
     name: 'HTML 5',
@@ -114,6 +116,7 @@ const technologies = [
   },
 ];
 
+//TODO: change experiences
 const experiences = [
   {
     title: 'React.js Developer',
@@ -196,35 +199,46 @@ const testimonials = [
   },
 ];
 
+// TODO: add all projects
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'RemindMe',
     description:
       'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+    // TODO: change colors of tags
     tags: [
       {
-        name: 'react',
+        name: 'next',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'prisma',
         color: 'green-text-gradient',
       },
       {
         name: 'tailwind',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'openAI',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'TypeScript',
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: remindMe,
+    source_code_link: 'https://github.com/paulpelykh/remind-me',
+    deploy_code_link: 'https://remind-me-tau.vercel.app/',
   },
   {
-    name: 'Job IT',
+    name: 'QuizAI',
     description:
       'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
     tags: [
       {
-        name: 'react',
+        name: 'next',
         color: 'blue-text-gradient',
       },
       {
@@ -236,8 +250,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: quizAI,
+    source_code_link: 'https://ai-quiz-dun.vercel.app/',
+    deploy_code_link: 'https://github.com/paulpelykh/ai-quiz',
   },
   {
     name: 'Trip Guide',
