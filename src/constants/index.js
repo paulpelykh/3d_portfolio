@@ -21,7 +21,7 @@ import {
   shopify,
   remindMe,
   quizAI,
-  tripguide,
+  portfolio_3d,
   threejs,
 } from '../assets';
 
@@ -199,16 +199,15 @@ const testimonials = [
   },
 ];
 
-// TODO: add all projects
+//TODO: change descriptions
 const projects = [
   {
     name: 'RemindMe',
     description:
       'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
-    // TODO: change colors of tags
     tags: [
       {
-        name: 'next',
+        name: 'Next.js',
         color: 'blue-text-gradient',
       },
       {
@@ -217,15 +216,11 @@ const projects = [
       },
       {
         name: 'tailwind',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'openAI',
-        color: 'pink-text-gradient',
+        color: 'purple-text-gradient',
       },
       {
         name: 'TypeScript',
-        color: 'pink-text-gradient',
+        color: 'red-text-gradient',
       },
     ],
     image: remindMe,
@@ -238,42 +233,46 @@ const projects = [
       'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
     tags: [
       {
-        name: 'next',
+        name: 'Next.js',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'prisma',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'tailwind',
+        color: 'purple-text-gradient',
+      },
+      {
+        name: 'openAI',
         color: 'pink-text-gradient',
       },
     ],
     image: quizAI,
-    source_code_link: 'https://ai-quiz-dun.vercel.app/',
-    deploy_code_link: 'https://github.com/paulpelykh/ai-quiz',
+    source_code_link: 'https://github.com/paulpelykh/ai-quiz',
+    deploy_code_link: 'https://ai-quiz-dun.vercel.app/',
   },
   {
-    name: 'Trip Guide',
+    name: '3D Portfolio',
     description:
       'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'React.js',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'Three.js',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: 'tailwind',
+        color: 'purple-text-gradient',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: portfolio_3d,
+    source_code_link: 'https://github.com/paulpelykh/3d_portfolio',
   },
 ];
 

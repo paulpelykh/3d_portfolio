@@ -29,7 +29,7 @@ import tesla from './company/tesla.png';
 
 import remindMe from './remindMe.png';
 import quizAI from './quizAI.png';
-import tripguide from './tripguide.png';
+import portfolio_3d from './portfolio_3d.png';
 
 export {
   logo,
@@ -59,6 +59,6 @@ export {
   tesla,
   remindMe,
   quizAI,
-  tripguide,
+  portfolio_3d,
   open,
 };
