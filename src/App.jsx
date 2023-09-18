@@ -21,7 +21,6 @@ function App() {
           <Hero />
         </div>
         <About />
-        <div></div>
         {/* <Experience /> */}
         <Tech />
         <Works />
