@@ -14,7 +14,7 @@ import {
   mongodb,
   git,
   figma,
-  docker,
+  next,
   meta,
   starbucks,
   tesla,
@@ -40,27 +40,26 @@ export const navLinks = [
   },
 ];
 
-//TODO: change experiences
 const services = [
   {
     title: 'Web Developer',
     icon: web,
   },
   {
-    title: 'React Native Developer',
-    icon: mobile,
-  },
-  {
     title: 'Backend Developer',
     icon: backend,
   },
   {
-    title: 'Content Creator',
-    icon: creator,
+    title: 'React Native Developer',
+    icon: mobile,
   },
+  // TODO: add another service
+  // {
+  //   title: 'Content Creator',
+  //   icon: creator,
+  // },
 ];
 
-//TODO: change experiences
 const technologies = [
   {
     name: 'HTML 5',
@@ -87,6 +86,10 @@ const technologies = [
     icon: redux,
   },
   {
+    name: 'Next JS',
+    icon: next,
+  },
+  {
     name: 'Tailwind CSS',
     icon: tailwind,
   },
@@ -109,10 +112,6 @@ const technologies = [
   {
     name: 'figma',
     icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
   },
 ];
 
@@ -204,7 +203,7 @@ const projects = [
   {
     name: 'RemindMe',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Web application that allows users to set reminders and create to do lists in a collection with selected deadline',
     tags: [
       {
         name: 'Next.js',
@@ -230,7 +229,7 @@ const projects = [
   {
     name: 'QuizAI',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'This platform is transforming the quiz and trivia experience by leveraging the vast capabilities of artificial intelligence. It is using OpenAI API to generate quiz by any topic',
     tags: [
       {
         name: 'Next.js',
@@ -256,7 +255,7 @@ const projects = [
   {
     name: '3D Portfolio',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      '3D portfolio that shows all my projects and technologies that I know using React and Three.js',
     tags: [
       {
         name: 'React.js',
@@ -273,6 +272,7 @@ const projects = [
     ],
     image: portfolio_3d,
     source_code_link: 'https://github.com/paulpelykh/3d_portfolio',
+    deploy_code_link: 'https://paulpelykh.vercel.app/',
   },
 ];
 
