@@ -1,3 +1,5 @@
+# 3D portfolio that shows all my projects and technologies that I know using React and Three.js
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
