@@ -1,4 +1,5 @@
 # 3D portfolio that shows all my projects and technologies that I know using React and Three.js
+![image](https://github.com/paulpelykh/3d_portfolio/assets/43278783/5e8fe2e0-74d0-41ff-a4f6-02e095defbf0)
 
 # React + Vite
 
